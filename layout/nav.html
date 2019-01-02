@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        header {
+            padding-top: 260px;
+            padding-bottom: 260px;
+            text-align: center;
+            background-image: url(images/bg-2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        header h1 {
+            font-size: 72px;
+            letter-spacing: 5px;
+        }
+
+        header p {
+            margin-bottom: 30px;
+        }
+
+        #products {
+            padding-top: 150px;
+            padding-bottom: 150px;
+        }
+
+        #products h4 {
+            text-align: center;
+        }
+
+        #activity {
+            padding-top: 150px;
+            padding-bottom: 150px;
+            background-color: #d4d4d4;
+
+            font-size: 0;
+        }
+
+        #activity .content {
+            float: none;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 16px;
+        }
+
+        #activity p {
+            margin: 30px 0;
+
+        }
+
+        #ad {
+            padding-top: 150px;
+            padding-bottom: 150px;
+
+            font-size: 0;
+
+            background-image: url(images/bg-3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #ad .content {
+            float: none;
+            display: block;
+            vertical-align: middle;
+            font-size: 16px;
+        }
+        @media screen and (min-width: 480px){
+            #ad .content {
+                display: inline-block;
+            }
+        }
+
+        #ad .col-4 {
+            text-align: center;
+        }
+
+        #business {
+            padding: 150px 0;
+        }
+
+        #business p {
+            margin: 30px 0;
+        }
+
+        #business .btn {
+            /* display: block; */
+            text-align: center;
+        }
+
+        #service {
+            padding: 150px 0;
+            background-color: #d4d4d4;
+        }
+
+        #service p {
+            margin: 30px 0;
+        }
+
+        #shop {
+            text-align: center;
+            padding: 50px 0;
+            background-image: linear-gradient(45deg, #f0f0f0, #adadad);
+        }
+
+        #shop .col-md-6 {
+            float: none;
+            margin: auto;
+        }
+
+        #shop p {
+            margin: 30px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #eee;
+
+            font-size: 0;
+        }
+        footer .content {
+            float: none;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 16px;
+            text-align: center;
+        }
+        footer .col-6:nth-of-type(2) {
+            /* background-color: #fa0; */
+        }
+        footer .sns {
+            text-align: center;
+        }
+        @media screen and (min-width: 760px){
+            footer .content {
+                text-align: left;
+            }
+            footer .sns {
+                text-align: right;
+            }
+        }
+        footer .sns a{
+            margin: 0 5px;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="full-width">
+        <div class="fixed-width clearfix">
+            <div class="logo">
+                <a href="#">LOGO</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">產品</a></li>
+                    <li><a href="#">熱門活動</a></li>
+                    <li><a href="#">商用電腦</a></li>
+                    <li><a href="#">服務社群</a></li>
+                    <li><a href="#">商店</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="full-width">
+        <h1>TITLE</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <a href="#" class="btn">Read More</a>
+
+    </header>
+    <div id="products" class="full-width">
+        <div class="fixed-width clearfix">
+            <div class="col-md-4">
+                <img src="images/001.jpg">
+                <h4>PRODUCT 1</h4>
+            </div>
+            <div class="col-md-4">
+                <img src="images/001.jpg">
+                <h4>PRODUCT 2</h4>
+            </div>
+            <div class="col-md-4">
+                <img src="images/001.jpg">
+                <h4>PRODUCT 3</h4>
+            </div>
+        </div>
+    </div>
+    <div id="activity" class="full-width">
+        <div class="fixed-width clearfix">
+            <div class="col-md-6 content">
+                <h3>TITLE</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam nostrum laborum minima
+                    reprehenderit laboriosam tempora!
+                    nostrum laborum minima reprehenderit laboriosam tempora.
+                </p>
+                <a href="#" class="btn">MORE</a>
+            </div>
+            <div class="col-md-6 content">
+                <img src="images/bg-2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="ad" class="full-width">
+        <div class="fixed-width clearfix">
+            <div class="col-md-8 content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, hic.Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Eaque, hic.</p>
+            </div>
+            <div class="col-md-4 content">
+                <a href="#" class="btn">GO</a>
+            </div>
+        </div>
+    </div>
+    <div id="business" class="full-width">
+        <div class="fixed-width clearfix">
+            <div class="col-lg-3 col-md-6">
+                <img src="images/bg-4.jpg" alt="">
+                <h3>TITLE</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, quibusdam.
+                </p>
+                <div>
+                    <a href="#" class="btn">BUY</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="images/bg-4.jpg" alt="">
+                <h3>TITLE</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, quibusdam.
+                </p>
+                <div>
+                    <a href="#" class="btn">BUY</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="images/bg-4.jpg" alt="">
+                <h3>TITLE</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, quibusdam.
+                </p>
+                <div>
+                    <a href="#" class="btn">BUY</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <img src="images/bg-4.jpg" alt="">
+                <h3>TITLE</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, quibusdam.
+                </p>
+                <div>
+                    <a href="#" class="btn">BUY</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="service" class="full-width">
+        <div class="fixed-width clearfix">
+            <div class="col-md-4">
+                <h3>title</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, tempora aperiam iste veniam
+                    rerum mollitia sequi incidunt voluptatum enim cupiditate aliquid inventore facilis beatae dolor
+                    reprehenderit quos, eos, vel ratione?
+                </p>
+                <a href="#" class="btn">More</a>
+            </div>
+            <div class="col-md-4">
+                <h3>title</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, tempora aperiam iste veniam
+                    rerum mollitia sequi incidunt voluptatum enim cupiditate aliquid inventore facilis beatae dolor
+                    reprehenderit quos, eos, vel ratione?
+                </p>
+                <a href="#" class="btn">More</a>
+            </div>
+            <div class="col-md-4">
+                <h3>title</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, tempora aperiam iste veniam
+                    rerum mollitia sequi incidunt voluptatum enim cupiditate aliquid inventore facilis beatae dolor
+                    reprehenderit quos, eos, vel ratione?
+                </p>
+                <a href="#" class="btn">More</a>
+            </div>
+        </div>
+    </div>
+    <div id="shop" class="full-width">
+        <div class="fixed-width clearfix">
+            <div class="col-12 col-md-6">
+                <h3>ON SALE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, hic.Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Eaque, hic.</p>
+                <a href="#" class="btn">SHOP</a>
+            </div>
+        </div>
+    </div>
+    <footer class="full-width">
+        <div class="fixed-width clearfix">
+            <div class="col-md-6 content col-12">
+                2018 &copy; All Rights Reserved
+            </div>
+            <div class="col-md-6 sns content col-12">
+                <a href="#">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="#">
+                        <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="#">
+                        <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="#">
+                        <i class="fab fa-behance-square fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
