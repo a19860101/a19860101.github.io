@@ -115,7 +115,7 @@
             border-radius: 50%;
             
         }
-        #skills .col-3:nth-of-type(2) .circle{
+        #skills .skill:nth-of-type(2) .circle{
             border-top: 10px solid #17c2a4;
             border-left: 10px solid transparent;
             border-right: 10px solid #17c2a4;
@@ -123,7 +123,7 @@
             
             transform: rotate(45deg);
         }
-        #skills .col-3:nth-of-type(3) .circle{
+        #skills .skill:nth-of-type(3) .circle{
             border-top: 10px solid #e04;
             border-left: 10px solid transparent;
             border-right: 10px solid #e04;
@@ -131,7 +131,7 @@
             
             transform: rotate(45deg);
         }
-        #skills .col-3:nth-of-type(4) .circle{
+        #skills .skill:nth-of-type(4) .circle{
             border-top: 10px solid #fa0;
             border-left: 10px solid transparent;
             border-right: 10px solid #fa0;
@@ -139,7 +139,7 @@
             
             transform: rotate(45deg);
         }
-        #skills .col-3:nth-of-type(5) .circle{
+        #skills .skill:nth-of-type(5) .circle{
             border-top: 10px solid #0af;
             border-left: 10px solid transparent;
             border-right: 10px solid #0af;
@@ -170,11 +170,20 @@
             margin-top: 50px;
         }
         #about .avatar {
-            width: 100px;
-            height: 100px;
+            width: 150px;
+            height: 150px;
             background-color: #aaa;
             border-radius: 50%;
             overflow: hidden;
+        }
+        @media screen and (min-width: 1000px){
+            #about .avatar {
+                width: 100px;
+                height: 100px;
+                background-color: #aaa;
+                border-radius: 50%;
+                overflow: hidden;
+            }
         }
         #about .col-9 p {
             font-style: italic;
@@ -234,31 +243,31 @@
     </header>
     <div id="service" class="full-width">
         <div class="fixed-width clearfix">
-            <div class="col-7 center">
+            <div class="col-lg-7 col-md-10 center">
                 <h2>SERVICE WE PROVIDE</h2>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, voluptatibus obcaecati dolorum totam tempora magnam illum fugit rem voluptate aliquam.
                 </p>
             </div>
-            <div class="col-3">
+            <div class="col-md-6 col-lg-3">
                 <img src="images/bg-10.jpg" alt="">
                 <h3>TITLE</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem saepe impedit tempora.             </p>
             </div>
-            <div class="col-3">
+            <div class="col-md-6 col-lg-3">
                 <img src="images/bg-10.jpg" alt="">
                 <h3>TITLE</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem saepe impedit tempora.             </p>
             </div>
-            <div class="col-3">
+            <div class="col-md-6 col-lg-3">
                 <img src="images/bg-10.jpg" alt="">
                 <h3>TITLE</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorem saepe impedit tempora.             </p>
             </div>
-            <div class="col-3">
+            <div class="col-md-6 col-lg-3">
                 <img src="images/bg-10.jpg" alt="">
                 <h3>TITLE</h3>
                 <p>
@@ -268,11 +277,11 @@
     </div>
     <div id="team" class="full-width">
         <div class="fixed-width clearfix">
-            <div class="col-7 center">
+            <div class="col-lg-7 col-md-10 center">
                 <h2>MEET OUT BEAUTIFUL TEAM</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fugit ad tempora?</p>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-6">
                 <div class="avatar">
                     <img src="images/s1.jpg" alt="">
                 </div>
@@ -288,7 +297,7 @@
                     <a href="#"><i class="far fa-envelope"></i></a>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-6">
                 <div class="avatar">
                     <img src="images/s1.jpg" alt="">
                 </div>
@@ -303,7 +312,7 @@
                     <a href="#"><i class="far fa-envelope"></i></a>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-6">
                 <div class="avatar">
                     <img src="images/s1.jpg" alt="">
                 </div>
@@ -319,7 +328,7 @@
                     <a href="#"><i class="far fa-envelope"></i></a>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-6">
                 <div class="avatar">
                     <img src="images/s1.jpg" alt="">
                 </div>
@@ -338,25 +347,25 @@
     </div>
     <div id="skills" class="full-width">
         <div class="fixed-width clearfix">
-            <div class="col-7 center">
+            <div class="col-lg-7 col-md-10 center">
                 <h2>WE GOT SKILLS!!</h2>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, iste.
                 </p>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-6 skill">
                 <div class="circle"></div>
                 <div class="skill">WEB DESIGN</div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-6 skill">
                 <div class="circle"></div>
                 <div class="skill">WEB DESIGN</div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-6 skill">
                 <div class="circle"></div>
                 <div class="skill">WEB DESIGN</div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-6 skill">
                 <div class="circle"></div>
                 <div class="skill">WEB DESIGN</div>
             </div>
@@ -403,52 +412,52 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minima aliquid nobis repellat, eius nesciunt.
                 </p>
             </div>
-            <div class="col-6">
-                <div class="col-3">
+            <div class="col-lg-6 clearfix">
+                <div class="col-lg-3 col-md-4">
                     <div class="avatar">
                         <img src="images/s3.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-lg-9 col-md-8">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non recusandae voluptatum illum quidem excepturi impedit reprehenderit quae a eos.</p>
                     <div class="name">CHANEL IMAN</div>
                     <div class="job">CEO of Pinterest</div>
                 </div>
             </div>
-            <div class="col-6">
-                <div class="col-3">
+            <div class="col-lg-6 clearfix">
+                <div class="col-lg-3 col-md-4">
                     <div class="avatar">
                         <img src="images/s3.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-lg-9 col-md-8">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non recusandae voluptatum illum quidem excepturi impedit reprehenderit quae a eos.</p>
                     <div class="name">CHANEL IMAN</div>
                     <div class="job">CEO of Pinterest</div>
                 </div>
             </div>
-            <div class="col-6">
-                <div class="col-3">
+            <div class="col-lg-6 clearfix">
+                <div class="col-lg-3 col-md-4">
                     <div class="avatar">
                         <img src="images/s3.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-lg-9 col-md-8">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non recusandae voluptatum illum quidem excepturi impedit reprehenderit quae a eos.</p>
                     <div class="name">CHANEL IMAN</div>
                     <div class="job">CEO of Pinterest</div>
                 </div>
             </div>
-            <div class="col-6">
-                <div class="col-3">
+            <div class="col-lg-6 clearfix">
+                <div class="col-lg-3 col-md-4">
                     <div class="avatar">
                         <img src="images/s3.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-lg-9 col-md-8">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non recusandae voluptatum illum quidem excepturi impedit reprehenderit quae a eos</p>
                     <div class="name">CHANEL IMAN</div>
